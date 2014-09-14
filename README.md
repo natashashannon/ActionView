@@ -57,9 +57,9 @@ replace the default text with the text below
   class Food < ActiveRecord::Base
   validate :name_included
 
-  	def name_included
-    	validates_presence_of :name
-   	  end
+  def name_included
+    validates_presence_of :name
+     end
     end
   
     def self.search(query)
@@ -70,8 +70,8 @@ replace the default text with the text below
 go to /supplies/app/views/foods/_form.html.erb file
 
 change
- 	  <%= f.date_select :expiration_date %>
+   <%= f.date_select :expiration_date %>
 to
-   	<%= f.date_select(:expiration_date,:start_year => 2014, end_year: 2030) %>
+    <%= f.date_select(:expiration_date,:start_year => 2014, end_year: 2030) %>
 
 --- Add a few more foods and you're DONE! ---

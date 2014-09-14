@@ -1,8 +1,7 @@
 ActionView
 ==========
 
-Brief intro to ActionView
-Code included below. My project documentation can be found at at www.natashashannon.com/actionview.html
+Brief intro to ActionView. Project documentation can be found at at www.natashashannon.com/actionview.html and the code is included below.
 
 ==========
 $ rails new supplies

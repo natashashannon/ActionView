@@ -28,7 +28,7 @@ go to /supplies/app/views/layouts/application.html.erb
 go to /supplies/app/views/foods/index.html.erb file
 below the <h1> heading add:
 
-<%= form_tag(dogs_path, :method => "get", id: "search-form") do %>
+<%= form_tag(foods_path, :method => "get", id: "search-form") do %>
   <%= text_field_tag :search, params[:search], placeholder: "Search Users" %>
   <%= submit_tag "Search", :name => nil %>
 <% end %>
